@@ -8,7 +8,7 @@ types of tags and returns the counts as a dictionary
 from collections import defaultdict
 import re
 
-
+#this is a test of github
 OSMFILE = "RaleighStreetData.osm"
 street_type_re = re.compile(r'\b\S+\.?$', re.IGNORECASE)
 
